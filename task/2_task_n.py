@@ -10,11 +10,9 @@ from task.app.main import run
 # - claude-3-7-sonnet@20250219
 # - gemini-2.5-pro
 
-run(
-    # TODO:
-    #  1. Provide `deployment_name` with model from the list above👆
-    #  2. Use `n` parameter with value in range from 1 to 5!
-)
+# run(deployment_name="gpt-4o", n=2)
+# run(deployment_name="claude-3-7-sonnet@20250219", n=2)
+run(deployment_name="gemini-2.5-pro", n=2)
 
 # Pay attention to the number of choices in the response!
 # If you have worked with ChatGPT, you have probably seen responses where ChatGPT offers you a choice between two
